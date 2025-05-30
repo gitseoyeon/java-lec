@@ -12,5 +12,10 @@ public class Main {
         String name = "민서연";
         System.out.println("name = " + name);
         System.out.println(name.length());
+
+
+        int bonus = 500;
+        int totalSalary = (int) salary + bonus; // casting
+        System.out.println("totalSalary = " + totalSalary);
     }
 }
